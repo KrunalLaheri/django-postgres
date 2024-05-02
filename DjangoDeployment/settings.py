@@ -79,10 +79,10 @@ WSGI_APPLICATION = 'DjangoDeployment.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'RDS DB',  # Replace with your database name
+        'NAME': 'Django RDS Postgres',  # Replace with your database name
         'USER': 'postgres',  # Replace with your database username
-        'PASSWORD': '########',  # Replace with your database password
-        'HOST': 'djangords.cb02i8064oo9.us-east-1.rds.sdfskjfksdflkN',  # Replace with your RDS endpoint (e.g., 'your-database-instance.abc123xyz.us-west-2.rds.amazonaws.com')
+        'PASSWORD': 'Krunal$world1',  # Replace with your database password
+        'HOST': 'django-rds.cb02i8064oo9.us-east-1.rds.amazonaws.com',  # Replace with your RDS endpoint (e.g., 'your-database-instance.abc123xyz.us-west-2.rds.amazonaws.com')
         'PORT': '5432',  # PostgreSQL's default port
     }
 }
